@@ -14,9 +14,9 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/kalyan-ks/ettin-pii"
-Repository = "https://github.com/kalyan-ks/ettin-pii"
-Issues = "https://github.com/kalyan-ks/ettin-pii/issues"
+Homepage = "https://github.com/KalyanKS-NLP/ettin-pii"
+Repository = "https://github.com/KalyanKS-NLP/ettin-pii"
+Issues = "https://github.com/KalyanKS-NLP/ettin-pii/issues"
 
 [project.scripts]
 ettin-pii = "ettin_pii.cli:main"

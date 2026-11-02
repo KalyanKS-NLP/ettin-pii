@@ -1,0 +1,31 @@
+[project]
+name = "ettin-pii"
+version = "0.1.0"
+description = "Production-ready PII detection and redaction toolkit powered by the Ettin Nemotron PII model family"
+readme = "README.md"
+authors = [
+    { name = "Kalyan KS", email = "kalyan.ks@yahoo.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.0.0",
+    "transformers>=4.40.0",
+    "pandas>=2.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/kalyan-ks/ettin-pii"
+Repository = "https://github.com/kalyan-ks/ettin-pii"
+Issues = "https://github.com/kalyan-ks/ettin-pii/issues"
+
+[project.scripts]
+ettin-pii = "ettin_pii.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+]

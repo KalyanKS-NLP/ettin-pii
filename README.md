@@ -104,6 +104,13 @@ ettin-pii redact records.txt --batch --output clean_records.txt
 
 ---
 
+## Documentation & Tutorials
+
+- 📖 **[Comprehensive User Guide](docs/user_guide.md):** In-depth architecture manual, complete API reference, and redaction recipes.
+- 🚀 **[Interactive Jupyter Tutorial](docs/tutorial.ipynb):** Hands-on tutorial notebook with one-click **Google Colab** support.
+
+---
+
 ## License
 
 MIT License.

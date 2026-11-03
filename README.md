@@ -1,5 +1,13 @@
 # ettin-pii: Production-Ready PII Detection & Redaction Toolkit
 
+<p align="left">
+  <a href="https://pypi.org/project/ettin-pii/"><img src="https://img.shields.io/pypi/v/ettin-pii.svg?color=blue" alt="PyPI version"></a>
+  <a href="https://pypi.org/project/ettin-pii/"><img src="https://img.shields.io/pypi/pyversions/ettin-pii.svg?color=green" alt="Python versions"></a>
+  <a href="https://github.com/KalyanKS-NLP/ettin-pii/actions/workflows/tests.yml"><img src="https://github.com/KalyanKS-NLP/ettin-pii/actions/workflows/tests.yml/badge.svg" alt="CI Tests"></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
+  <a href="https://huggingface.co/kalyan-ks"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-orange" alt="Hugging Face Models"></a>
+</p>
+
 A high-performance Python PII detection and anonymization library powered by the **Ettin Nemotron PII** model family (`kalyan-ks/ettin-*-nemotron-pii`), detecting **50+ Personally Identifiable Information (PII) entity types** across healthcare, finance, legal, and cyber domains.
 
 ---
@@ -99,4 +107,3 @@ ettin-pii redact records.txt --batch --output clean_records.txt
 ## License
 
 MIT License.
-

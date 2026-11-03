@@ -3,10 +3,20 @@ name = "ettin-pii"
 version = "0.1.0"
 description = "Production-ready PII detection and redaction toolkit powered by the Ettin Nemotron PII model family"
 readme = "README.md"
+license = "MIT"
 authors = [
     { name = "Kalyan KS", email = "kalyan.ks@yahoo.com" }
 ]
 requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Security",
+]
 dependencies = [
     "torch>=2.0.0",
     "transformers>=4.40.0",

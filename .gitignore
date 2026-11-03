@@ -21,3 +21,6 @@ htmlcov/
 .vscode/
 .idea/
 *.swp
+
+# Planning and design documents
+PII Detection Library Outline.md

@@ -1540,6 +1540,21 @@ Make your library installable for anyone in the world via `pip install ettin-pii
 
 ---
 
+### Step 4: Post-Release Showcasing & Live Badges
+After publishing to PyPI, add dynamic status badges to your GitHub repository `README.md` to display live build health, PyPI versions, supported Python runtimes, and Hugging Face model links:
+
+```html
+<p align="left">
+  <a href="https://pypi.org/project/ettin-pii/"><img src="https://img.shields.io/pypi/v/ettin-pii.svg?color=blue" alt="PyPI version"></a>
+  <a href="https://pypi.org/project/ettin-pii/"><img src="https://img.shields.io/pypi/pyversions/ettin-pii.svg?color=green" alt="Python versions"></a>
+  <a href="https://github.com/KalyanKS-NLP/ettin-pii/actions/workflows/tests.yml"><img src="https://github.com/KalyanKS-NLP/ettin-pii/actions/workflows/tests.yml/badge.svg" alt="CI Tests"></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
+  <a href="https://huggingface.co/kalyan-ks"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-orange" alt="Hugging Face Models"></a>
+</p>
+```
+
+---
+
 ## Feature Implementation Matrix
 
 | Feature | Primary File | Key Methods / Properties |
